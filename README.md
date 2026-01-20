@@ -1,4 +1,4 @@
-# Custome-Analytics-Preparing-Data-For-Modeling
+# Customer-Analytics-Preparing-Data-For-Modeling
 ## Table of Contents
 - Project Overview
 - Dataset Description
