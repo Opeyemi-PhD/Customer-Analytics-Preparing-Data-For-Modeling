@@ -59,5 +59,4 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 
    ii. `ordered` argument which is set to be True, for the new categories tobe ordered.
 
-   
-- Subset the DataFrame with company size greater than 500-999 and year of experience greater than or equal to 10.
+- Obtained and compared the brief summary of the original and transformed DataFrame using the `info()` function to see how the size of the transformed DataFrame is reduced compared to the original DataFrame.
