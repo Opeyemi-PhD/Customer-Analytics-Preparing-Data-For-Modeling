@@ -52,5 +52,4 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 -  Obtained a brief summary of the DataFrame using the `info()` function.
 -  Checked for the unique values in the `job_change` column
 -  converted `job_change` column to object data type
--  Used a `for loop, if, and elif conditional statement` over each column and converted the column(s) to boolean data type if column(s) is/are of object data type and with only two unique values; else convert to int32 if column(s) is/are of int64 data type;
- else if column(s) is/are of float64, convert to float16, else convert to category data type if column(s) is/are of object data type and the number of unique values is/are not two. 
+-  Used a `for loop, if, elif, and else conditional statements` over each column and converted column(s) of object data type with only two unique values to boolean data type; column(s) of int64 data type to int32 data type; column(s) of float64 to float16, and converted column(s) of object data type with the number of unique values less or more than two to category data type, to ensure the size of the dataset is reduced and efficiently stored.
