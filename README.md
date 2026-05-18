@@ -58,3 +58,6 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
    i. `new_categories` argument, which contains a list of new categories.
 
    ii. `ordered` argument which is set to be True, for the new categories tobe ordered.
+
+   
+- Subset the DataFrame with company size greater than 500-999 and year of experience greater than or equal to 10.
