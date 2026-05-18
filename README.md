@@ -43,7 +43,7 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 ---
 ## Steps Summary
 1. Imported Required Libraries
--  Used **Pandas** and **NumPy** for data manipulation and cleaning.
+-  Used **Pandas** for data manipulation and transformation.
   
 2. Loaded and Inspected the Dataset
 -  Loaded the dataset using `pd.read_csv("customer_train.csv")`.
@@ -51,5 +51,5 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 -  Displayed the first five rows of the dataset with `head()` function.
 -  Obtained a brief summary of the DataFrame using the `info()` function.
 -  Checked for the unique values in the `job_change` column
--  converted `job_change` column to object data type
--  Used a `for loop, if, elif, and else conditional statements` over each column and converted column(s) of object data type with only two unique values to boolean data type; column(s) of int64 data type to int32 data type; column(s) of float64 to float16, and converted column(s) of object data type with the number of unique values less or more than two to category data type, to ensure the size of the dataset is reduced and efficiently stored.
+-  converted `job_change` column to `object` data type
+-  Used a `for loop, if, elif, and else conditional statements` over each column and converted column(s) of `object` data type with only two unique values to `boolean` data type, column(s) of `int64` data type to `int32` data type, column(s) of `float64` to `float16`, and converted column(s) of `object data` type with the number of unique values less or more than two to `category` data type; to ensure the size of the dataset is reduced and efficiently stored.
