@@ -15,7 +15,6 @@ In this project, I ensured that:
 - Columns containing floats are stored as 16-bit floats (float16).
 - Columns containing nominal categorical data are stored as the category data type.
 - Columns containing ordinal categorical data are stored as ordered categories, and not mapped to numerical values, with an order that reflects the natural order of the column.
-- The DataFrame is filtered to only contain students with 10 or more years of experience at companies with at least 1000 employees, as their recruiter base is suited to more experienced professionals at enterprise companies.
   
 to obtain substantial decrease in memory usage.
 
@@ -53,10 +52,13 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 -  Checked for the unique values in the `job_change` column
 -  converted `job_change` column to `object` data type
 -  Used a `for loop, if, elif, and else conditional statements` over each column and converted column(s) of `object` data type with only two unique values to `boolean` data type, column(s) of `int64` data type to `int32` data type, column(s) of `float64` to `float16`, and converted column(s) of `object data` type with the number of unique values less or more than two to `category` data type; to ensure the size of the dataset is reduced and efficiently stored.
--  Check for the unique values in the categorical columns: `enrolled_university`, `education_level`, `experience`, `last_new_job`,and `company_size` using the `unique()` function, and set new ordered categories for each column, using the `cat` accessor for categorical data, `set_categories()` function, with the following arguments
+-  Check for the unique values in the ordinal categorical columns: `enrolled_university`, `education_level`, `experience`, `last_new_job`,and `company_size` using the `unique()` function, and set new ordered categories for each column, using the `cat` accessor for categorical data, `set_categories()` function, with the following arguments
 
    i. `new_categories` argument, which contains a list of new categories.
 
    ii. `ordered` argument which is set to be True, for the new categories tobe ordered.
 
-- Obtained and compared the brief summary of the original and transformed DataFrame using the `info()` function to see how the size of the transformed DataFrame is reduced compared to the original DataFrame.
+- Obtained and compared the brief summary of the original and transformed DataFrame using the `info()` function, to see how the memory usage of the DataFrame decrease substantially from 2.0+ MB to 400.2 KB after transformation.
+
+  ---
+  ## Conclusions
