@@ -51,3 +51,4 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 -  Displayed the first five rows of the dataset with `head()` function.
 -  Obtained a brief summary of the DataFrame using the `info()` function.
 -  Checked for the unique values in the `job_change` column
+-  converted `job_change` column to object data type
