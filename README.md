@@ -41,3 +41,11 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 | `job_change`             | An indicator of whether the student is looking for a new job (`1`) or not (`0`). |
 
 ---
+## Steps Summary
+1. Imported Required Libraries
+-  Used **Pandas** and **NumPy** for data manipulation and cleaning.
+  
+2. Loaded and Inspected the Dataset
+-  Loaded the dataset using `pd.read_csv("bank_marketing.csv")`.
+-  Displayed the first and last five rows with `head()` and `tail()`.
+-  Obtained a brief summary of the dataset using the `info()`.
