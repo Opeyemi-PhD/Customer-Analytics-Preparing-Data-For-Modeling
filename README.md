@@ -48,5 +48,5 @@ The dataset `customer_train.csv` contains about 19,160 entries and 14 columns, i
 2. Loaded and Inspected the Dataset
 -  Loaded the dataset using `pd.read_csv("customer_train.csv")`.
 -  Created a copy of the .dataset
--  Displayed the first five rows of the dataset with `head()`.
--  Obtained a brief summary of the dataset using the `info()`.
+-  Displayed the first five rows of the dataset with `head()` function.
+-  Obtained a brief summary of the DataFrame using the `info()` function.
