@@ -74,7 +74,7 @@ The dataset `customer_train.csv` contains approximately 19,160 entries and 14 co
 | Dataset Version | Memory Usage |
 |----------------|--------------|
 | Original Dataset | 2.0+ MB |
-| Optimized Dataset | 400.02 KB |
+| Optimized Dataset | 400.2 KB |
   
   ---
 ## Conclusions
